@@ -2,7 +2,7 @@
 
 这里放跨课程的公开准备，不放课程内容。Issue 模板、`LICENSE.md`、`CONTRIBUTING.md` 必须放在各门课自己的仓库里，GitHub 才认。
 
-Python 和 C++ 一起公开。转公开由老师手动做，不自动做。
+Python 和 C++ 已一起公开。主文件夹的仓库保持私有。
 
 ## 老师的决定
 
@@ -33,12 +33,12 @@ Python 和 C++ 一起公开。转公开由老师手动做，不自动做。
 
 ## 公开后
 
-每个课程仓库都要做：
+两门课都已做完：
 
-1. 打开 Discussions，建好 Issue 模板用的三个标签：内容错误、教学建议、页面显示。
-2. 保护 `main`：要求走 PR，并要求 CI 通过。Settings 里 Actions 的外部贡献者设置保持“首次贡献者要批准后才运行”。
-3. 加一个发布 `dist/` 的 Pages 工作流。私有仓库用不了，所以没有提前加。
-4. 用未登录的浏览器看一遍：首页、一节课、提 Issue 的页面、感谢页的链接。
+- Discussions 已打开，三个标签已建好。
+- `main` 不能强推和删除。不要求走 PR，老师继续直接推送，外部贡献者只能发 PR。
+- 首次贡献者的 PR 要批准后才运行 CI。
+- `dist/` 随推送自动发布到 Pages：[Python](https://lixuanan2.github.io/python-for-youth/)、[C++](https://lixuanan2.github.io/cpp-for-youth/)。
 
 ## 请人点评
 

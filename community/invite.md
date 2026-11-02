@@ -1,6 +1,8 @@
 # 邀请点评
 
-一次只请人看一节课，给一个能直接打开的链接，问具体的问题。公开和开 Pages 之后再发。
+一次只请人看一节课，给一个能直接打开的链接，问具体的问题。
+
+课件链接：Python 用 `https://lixuanan2.github.io/python-for-youth/04-conditions/index.html` 这种写法，把课的文件夹名换掉。C++ 把 `python-for-youth` 换成 `cpp-for-youth`。
 
 ## 找谁
 
