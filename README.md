@@ -20,6 +20,10 @@ git clone https://github.com/lixuanan2/python-for-youth.git
 git clone https://github.com/lixuanan2/cpp-for-youth.git
 ```
 
+## 公开和点评
+
+公开课程、请人点评的准备在 [community/](community/README.md)。
+
 ## 做课
 
 用 Claude Code 做课时，打开主文件夹或课程文件夹都可以。做新课的方法看各课程自己的 `README.md`，新增一门课的步骤在 [AGENTS.md](AGENTS.md)。

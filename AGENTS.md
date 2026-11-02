@@ -8,6 +8,7 @@
 | --- | --- | --- |
 | `python-for-youth/` | `lixuanan2/python-for-youth` | Python 课，共用模板以这里为准 |
 | `cpp-for-youth/` | `lixuanan2/cpp-for-youth` | C++ 课 |
+| `community/` | 主文件夹的仓库 | 公开课程和请人点评的准备，不放课程内容 |
 
 ## 规则
 
