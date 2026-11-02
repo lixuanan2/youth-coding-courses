@@ -1,6 +1,6 @@
 # 青少年编程课程：主文件夹规则
 
-默认简体中文。这里放所有课程，每门课一个文件夹，各自是独立的私有 Git 仓库。主文件夹是小仓库 `lixuanan2/youth-coding-courses`，只保存跨课程的说明，用 `.gitignore` 忽略所有课程文件夹。
+默认简体中文。这里放所有课程，每门课一个文件夹，各自是独立的 Git 仓库。主文件夹是小仓库 `lixuanan2/youth-coding-courses`，只保存跨课程的说明，用 `.gitignore` 忽略所有课程文件夹。
 
 ## 文件夹
 
@@ -33,7 +33,7 @@ rsync -a --delete --exclude=.DS_Store python-for-youth/vendor/ cpp-for-youth/ven
 
 比如 `ai-for-youth/`：
 
-1. 新建文件夹和私有仓库，文件夹名与仓库名相同，都用 `<主题>-for-youth`。
+1. 新建文件夹和仓库，文件夹名与仓库名相同，都用 `<主题>-for-youth`。
 2. 复制 `template/`、`tools/`、`vendor/`，再仿照现有课程写 `site.json`、`course.json`、`PROMPT.md`、`AGENTS.md`、`CLAUDE.md` 和 skill。
 3. `tools/check.py` 目前只认 `python` 和 `cpp` 两种语言，新语言要先在 `python-for-youth/` 里加上。
 4. 把新文件夹加进上面的表格和 `README.md`，再在主文件夹提交。文件夹名以 `-for-youth` 结尾，才会被主仓库忽略。
