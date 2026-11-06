@@ -8,6 +8,7 @@
 | --- | --- | --- |
 | `python-for-youth/` | `lixuanan2/python-for-youth` | Python 课，共用模板以这里为准 |
 | `cpp-for-youth/` | `lixuanan2/cpp-for-youth` | C++ 课 |
+| `ai-for-youth/` | `lixuanan2/ai-for-youth`（私有） | AI 课，还在设想，方向没定 |
 | `community/` | 主文件夹的仓库 | 公开课程和请人点评的准备，不放课程内容 |
 
 旧仓库 `少儿编程/00_教学管理/06_课程仓库/` 下的 Python 和 C++ 课件已经淘汰，只在老师要求时读来参考内容，不在里面改东西，也不往那里派活。
