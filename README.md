@@ -4,10 +4,11 @@
 
 | 课程 | 打开方式 |
 | --- | --- |
-| Python | 双击 `python-for-youth/dist/index.html` |
-| C++ | 双击 `cpp-for-youth/dist/index.html` |
+| Python | 双击 `python-for-youth/basics/dist/index.html` |
+| C++ | 双击 `cpp-for-youth/basics/dist/index.html` |
+| AI | 还在设想，没有课件 |
 
-上课时只复制对应课程的 `dist/` 文件夹。
+上课时只复制对应课程的 `basics/dist/` 文件夹。
 
 ## 换电脑
 
@@ -18,6 +19,7 @@ git clone https://github.com/lixuanan2/youth-coding-courses.git ppt-claude
 cd ppt-claude
 git clone https://github.com/lixuanan2/python-for-youth.git
 git clone https://github.com/lixuanan2/cpp-for-youth.git
+git clone https://github.com/lixuanan2/ai-for-youth.git   # 私有仓库
 ```
 
 ## 公开和点评
