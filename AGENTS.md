@@ -46,6 +46,15 @@ rsync -a --delete --exclude=.DS_Store python-for-youth/basics/vendor/ cpp-for-yo
 
 同步后在 `cpp-for-youth/basics/` 跑检查，通过了再提交。以后别的模块要不要共用这套，到时候再定。
 
+## 检查
+
+推送后 GitHub 会把所有课完整查一遍：`check.py` 在 Windows 和 Ubuntu 上各跑一次，`check_browser.mjs` 用真实的 Chrome 打开每一页。浏览器检查一次要 15 到 20 分钟，所以本机不重复跑全量：
+
+- 本机每次都跑 `build.py --pdf` 和 `check.py`。
+- 浏览器检查在本机只跑改过的那几节课。
+- 改了共用的 `template/`，或者 `tools/` 里和页面、浏览器有关的部分，本机才把所有课都跑一遍。
+- 推送后等 CI 和 Pages 都通过，再汇报。CI 没过就修，不算完成。
+
 ## 新增一门课
 
 比如 `ai-for-youth/`：
