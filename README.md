@@ -7,7 +7,7 @@
 | 课程 | 基础课件 | 项目课 | 仓库 |
 | --- | --- | --- | --- |
 | Python | [![打开 Python 基础课件](assets/button-python.svg)](https://lixuanan2.github.io/python-for-youth/basics/) | [井字棋](https://lixuanan2.github.io/python-for-youth/project/) | [python-for-youth](https://github.com/lixuanan2/python-for-youth) |
-| C++ | [![打开 C++ 基础课件](assets/button-cpp.svg)](https://lixuanan2.github.io/cpp-for-youth/basics/) | 在做 | [cpp-for-youth](https://github.com/lixuanan2/cpp-for-youth) |
+| C++ | [![打开 C++ 基础课件](assets/button-cpp.svg)](https://lixuanan2.github.io/cpp-for-youth/basics/) | [井字棋](https://lixuanan2.github.io/cpp-for-youth/project/) | [cpp-for-youth](https://github.com/lixuanan2/cpp-for-youth) |
 | AI | 还在设想，没有课件 | | |
 
 ## 老师本机
